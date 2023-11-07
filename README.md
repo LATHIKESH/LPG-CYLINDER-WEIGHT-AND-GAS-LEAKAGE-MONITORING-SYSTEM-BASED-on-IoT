@@ -21,47 +21,56 @@ The gas leakage detection system consists of an ESP8266 module, MQ-6 gas sensor,
 ### Microcontroller Module (Arduino Uno)
 The Arduino Uno is a compact microcontroller used to control embedded electronic systems. It reads the environment temperature from the sensor module, displays characters on the LCD, and controls pins as per the program.
 
-![Arduino Uno](images2/arduino-image)
+![kisspng-arduino-uno-atmega328-microcontroller-atmel-avr-5aecfc85369993 5796984415254805812237-removebg-preview](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/470e30e6-34a6-4b6e-8b91-00b26865cd40)
+
+
 
 ### MQ6 Gas Sensor
 The MQ6 Gas Sensor detects various gases, with specifications including power requirements, detecting concentration, and sensitivity. It has a rapid response time and high sensitivity.
 
-![MQ6 Gas Sensor](images2/mq6-image)
+![download-removebg-preview](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/5dcb1a9c-73f0-46ab-a5b3-3ebbbf931252)
+
 
 ### Load Cell
 The load cell, calibrated with an HX711 amplifier, measures the weight of the gas cylinder. It provides measurable data with an accuracy of +/-5%.
-
-![Load Cell](images2/load-cell-image)
+![download-removebg-preview (2)](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/4a494097-194e-4bf5-ac89-8cc8e9e45f01)
 
 ### Sound Module (Buzzer)
 The buzzer alarms when the microcontroller detects a gas leakage, providing an audible alert to users.
 
-![Buzzer](images2/buzzer-image)
+![Buzzer]![download-removebg-preview (1)](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/4f59cfe0-ebd0-418f-a66b-6a4435762d88)
+
 
 ### Display Module (LCD)
 The LCD screen displays real-time weight readings from the load cell. It is a 16x2 LCD with two registers for commands and data.
 
-![LCD Display](images2/lcd-image)
+![download-removebg-preview (3)](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/f49ca0e7-72e8-4291-bfec-c9e9e0321520)
+
 
 ### LED Bulb
 A light-emitting diode (LED) serves as an indicator, glowing for specific weight conditions or for demo purposes.
 
-![LED Bulb](images2/led-image)
+![5_mm_Red_LED__15787-removebg-preview](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/4a631ff8-18c4-480f-ba86-2f3bc1eb517a)
 
 ### Servo Motor
 The servo motor controls the automatic closure of the gas knob when a gas leak is detected, enhancing safety.
 
-![Servo Motor](images2/servo-image)
+
+
+![download-removebg-preview (4)](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/66c2a287-e073-4b7a-a693-9a1a62b98978)
+
 
 ### Wi-Fi Module (ESP8266)
 The Wi-Fi module facilitates communication between devices and enables data storage in the cloud, accessible remotely.
 
-![Wi-Fi Module](images2/wifi-image)
+![download-removebg-preview (5)](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/77238205-2dcb-4595-b189-3bdbfcb97a17)
+
 
 ### Power Supply
 The power supply is provided by a USB cable connecting the Arduino Uno to a power bank, eliminating the need for a separate power source.
 
-![Power Supply](images2/power-supply-image)
+![download-removebg-preview (6)](https://github.com/LATHIKESH/LPG-CYLINDER-WEIGHT-AND-GAS-LEAKAGE-MONITORING-SYSTEM-BASED-on-IoT/assets/118517819/5c60cd18-2985-480d-8e5a-a8bc1b8c8baf)
+
 
 ### Arduino Software (IDE)
 The Arduino Integrated Development Environment (IDE) is used to write sketches, programs written for Arduino boards. It provides a text editor, message area, console, toolbar, and menus for coding and uploading.
