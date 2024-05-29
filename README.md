@@ -84,7 +84,7 @@ The power supply is provided by a USB cable connecting the Arduino Uno to a powe
 ### Arduino Software (IDE)
 The Arduino Integrated Development Environment (IDE) is used to write sketches, programs written for Arduino boards. It provides a text editor, message area, console, toolbar, and menus for coding and uploading.
 
-![Arduino IDE](images2/arduino-ide-image)
+![Arduino IDE](arduino-ide-image.png)
 
 ### Writing Sketches
 Programs, known as sketches, are written using the Arduino IDE. These sketches are saved with the file extension .ino and are written in the text editor. The console displays feedback, including errors.
@@ -101,12 +101,12 @@ In the event of a gas leak exceeding a hazardous level, the buzzer is triggered 
 
 All the collected data can be conveniently viewed on the cloud using the Wi-Fi module, enabling remote monitoring and data access.
 ## Prototype
-![Prototype Image](images2/prototype-image)
+![Prototype Image](prototype-image.png)
 ## Results and Discussion
 
 The purpose of the system is to provide safe, reliable, simple, and cost-effective LPG leakage detection and control. The aim is to modify existing safety models in the house, offering a quick response and precise detection and control in critical situations.
 
-![Output Chart](images2/output_chart_image.png)
+![Output Chart](output_chart_image.png)
 
 ## Conclusion
 
